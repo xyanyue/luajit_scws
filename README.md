@@ -1,4 +1,4 @@
-luajit_scws
+luajit_scws  openresty+lua+scws简单中文分词
 ===============
 #编译：
 ```bash
