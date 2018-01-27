@@ -27,7 +27,7 @@ static int run(lua_State *L)
   scws_send_text(s, text1, strlen(text1));
   //res = scws_get_tops(s,10,"@,en");
   lua_newtable(L);                    //新建一个表，并压入栈顶
-  //lua_pushnumber(L,-1);            //这行和下面一行，没搞懂为什么需要这样，但如果不执行，lua中获取的数据就会出错
+  //lua_pushnumber(L,-1);            
   //lua_rawseti(L,-2,0);
   res = cur = scws_get_tops(s,10,"@,en");
     while (cur != NULL)
